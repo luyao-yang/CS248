@@ -1,0 +1,5 @@
+Ray Tracing with Cone: 
+http://www.illusioncatalyst.com/notes_files/mathematics/line_cone_intersection.php
+
+Ray Tracing with Plane and disk:
+https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-plane-and-ray-disk-intersection

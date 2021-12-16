@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/luyao/Documents/assignment3_备份/build",
+  "command": "/usr/bin/clang++  -I/Users/luyao/Documents/assignment3_备份/inc -I/Users/luyao/Documents/assignment3_备份/lib/dawn/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/framework_cs248fall2021.dir/src/main.cpp.o -c /Users/luyao/Documents/assignment3_备份/src/main.cpp",
+  "file": "/Users/luyao/Documents/assignment3_备份/src/main.cpp"
+},
+{
+  "directory": "/Users/luyao/Documents/assignment3_备份/build",
+  "command": "/usr/bin/clang++  -I/Users/luyao/Documents/assignment3_备份/inc -I/Users/luyao/Documents/assignment3_备份/lib/dawn/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/framework_cs248fall2021.dir/src/mac/glue.mm.o -c /Users/luyao/Documents/assignment3_备份/src/mac/glue.mm",
+  "file": "/Users/luyao/Documents/assignment3_备份/src/mac/glue.mm"
+},
+{
+  "directory": "/Users/luyao/Documents/assignment3_备份/build",
+  "command": "/usr/bin/clang++  -I/Users/luyao/Documents/assignment3_备份/inc -I/Users/luyao/Documents/assignment3_备份/lib/dawn/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/framework_cs248fall2021.dir/src/mac/webgpu.mm.o -c /Users/luyao/Documents/assignment3_备份/src/mac/webgpu.mm",
+  "file": "/Users/luyao/Documents/assignment3_备份/src/mac/webgpu.mm"
+},
+{
+  "directory": "/Users/luyao/Documents/assignment3_备份/build",
+  "command": "/usr/bin/clang++  -I/Users/luyao/Documents/assignment3_备份/inc -I/Users/luyao/Documents/assignment3_备份/lib/dawn/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/framework_cs248fall2021.dir/src/mac/window.mm.o -c /Users/luyao/Documents/assignment3_备份/src/mac/window.mm",
+  "file": "/Users/luyao/Documents/assignment3_备份/src/mac/window.mm"
+}
+]

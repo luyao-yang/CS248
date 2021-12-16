@@ -1,0 +1,37 @@
+Assignment 3: Object-Order Rendering with Rasterization
+
+The set of tasks will be about an object-order graphics pipeline. Our basic representation will be a triangle mesh, coming with an OBJ file format.
+
+1. First, your task is to load this mesh into an indexed mesh data structure that allows you to easily iterate through the triangles. 
+Some meshes are provided in /data folder of the source code.
+
+2. Note for these meshes:
+The beacon is bounded by a sphere with center point C=[125,125,125] and the radius r = 125. 
+The teapot is bounded by a bouding box with center point C=[0.217,1.575,0], minimum of bouding box [-3,0,-2] and maximum of bouding box [3.434, 3.15, 2.0]
+Therefore set the view-model transformation so that entire objects fit into the viewing frustum of the camera.
+
+3. For each triangle you need to calculate a per face normal as a normalized cross product of the three vertex coordinates, 
+and calculate vertex normal for each vertex from face normal.
+
+4. Implement Arcball controls either by transforming the camera or the model relative to the object's bounding sphere around the center of the object 
+so that you can see the entire object from all viewpoints (therefore no clipping should be needed to implement).
+Reference: http://courses.cms.caltech.edu/cs171/assignments/hw3/hw3-notes/notes-hw3.html
+
+5. Implement the viewing transformation so that all your triangles will be transformed into the screen space.
+
+6. Perform the rasterization of each triangle using the barycentric coordinates interpolation for each triangle fragment. (20%)
+
+7. Implement the z-buffer technique in which only the closest fragment to the camera is stored. 
+Also create and store a normal buffer (a buffer where rgb represent xyz of a normal vector) 
+and store there the per face normal (of course transformed into screen space).
+Hint: Take a look here https://learnopengl.com/Advanced-Lighting/Deferred-Shading for deferred shading and normal buffer example.
+
+8. Perform Gouraud shading, Phong shading with one light source placed somewhere above the camera using the normal stored in the normal buffer 
+and store the shading result into the color buffer that is displayed on the screen. For beacon model, you should use face normal for computing shading.
+
+9. Create a wireframe model rendering with a hidden surface removal.
+
+Fun assignment: Find out what is written on the bottom of the model. Send me a screenshot to prove that it has been read by using your own renderer. 
+
+Note:
+Please read the instruction with tag #NOTE in the source code carefully.

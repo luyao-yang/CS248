@@ -1,0 +1,3 @@
+/Users/luyao/Documents/CS248ComputerGraphics/assignment4/native-build/CMakeFiles/rebuild_cache.dir
+/Users/luyao/Documents/CS248ComputerGraphics/assignment4/native-build/CMakeFiles/edit_cache.dir
+/Users/luyao/Documents/CS248ComputerGraphics/assignment4/native-build/CMakeFiles/framework_cs248fall2021.dir

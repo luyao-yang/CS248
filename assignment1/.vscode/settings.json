@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/framework_cs248fall2021",
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "*.rmd": "markdown",
+        "algorithm": "cpp",
+        "regex": "cpp"
+    }
+}

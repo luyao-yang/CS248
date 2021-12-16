@@ -1,0 +1,3 @@
+/Users/luyao/Documents/assignment3_备份/build/CMakeFiles/rebuild_cache.dir
+/Users/luyao/Documents/assignment3_备份/build/CMakeFiles/edit_cache.dir
+/Users/luyao/Documents/assignment3_备份/build/CMakeFiles/framework_cs248fall2021.dir
